@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'faa private pilot' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+ pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
+ pod "BWWalkthrough"
+ pod 'RAMAnimatedTabBarController'
+ pod 'LTMorphingLabel'
+ pod 'YALSideMenu'
+ pod 'JSQMessagesViewController', :git => 'https://github.com/jessesquires/JSQMessagesViewController', :tag => '7.2.0'
+ pod 'Firebase', '>= 2.4.3'
+ 
+ # Pods for faa private pilot
+ pod'SVProgressHUD'
+
+  target 'faa private pilotTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'faa private pilotUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

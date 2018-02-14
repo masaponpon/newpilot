@@ -1,0 +1,6 @@
+framework module Pods_faa_private_pilotTests {
+  umbrella header "Pods-faa private pilotTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
